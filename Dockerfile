@@ -27,6 +27,7 @@ RUN export GNUPGHOME="$(mktemp -d)" && \
         ghc-${GHC} \
         ghc-${GHC}-prof \
         git \
+        vim \
         libsqlite3-dev \
         libtinfo-dev \
         make \

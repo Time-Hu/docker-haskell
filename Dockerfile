@@ -33,6 +33,7 @@ RUN export GNUPGHOME="$(mktemp -d)" && \
         make \
         cmake \
         netbase \
+        bash-completion \
         openssh-client \
         xz-utils \
         zlib1g-dev && \
